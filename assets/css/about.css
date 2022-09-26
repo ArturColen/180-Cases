@@ -1,0 +1,51 @@
+/* === Presentation Section === */
+.centralize{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+}
+
+#about-section{
+    margin: 10vh 7vw 13.8vh;
+}
+
+.titles{
+    font-size: 1em;
+    margin-bottom: 3vh;
+}
+
+#welcome{
+    font-size: 2.5em;
+    font-family: 'Cookie', cursive;
+}
+
+#logo-2{
+    margin-bottom: 4.8vh;
+}
+
+.texts{
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 1.4em;
+}
+
+.paragraph{
+    margin: 1.2vh 1vw;
+}
+
+/* === Motivations Section === */
+#motivate-section{
+    margin: 0 7vw 13.8vh;
+}
+
+/* === Values Section === */
+#values-section{
+    margin: 0 7vw 0;
+}
+
+/* === Media Queries === */
+@media (max-width: 1024px) {
+    #values-section{
+        margin-bottom: 8.8vh;
+    }
+}

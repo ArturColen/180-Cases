@@ -1,0 +1,105 @@
+/* === Contact === */
+.title{
+    width: 100%;
+    margin: 10vh 0 2vh;
+    display: grid;
+    justify-content: center;
+    font-size: 1em;
+}
+
+.centralize{
+    margin: 0 7vw 10vh 7vw;
+    text-align: center;
+    line-height: 1.4em;
+}
+
+#contact{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#mail{
+    margin-bottom: 5vh;
+}
+
+#location p{
+    margin-bottom: 10vh;
+}
+
+.link-contact{
+    font-weight: bold;
+    color: var(--color--dark--orange);
+}
+
+.link-contact:hover{
+    text-decoration: underline;
+}
+
+.contact-form{
+    text-align: center;
+}
+
+
+/* === Form === */
+form{
+    width: 70%;
+    padding: 2vh 2vw 3vh 0;
+    margin: 10vh auto;
+    box-shadow: 0 4px 8px var(--color--blue);
+    text-align: start;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 1em;
+    border: 1px solid var(--color--dark--blue);
+}
+
+form label{
+    font-weight: bold;
+    margin-left: 1vw;
+}
+
+button{
+    background-color: var(--color--white);
+    border: 1px solid var(--color--dark--blue);
+    color: var(--color--dark--blue);
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 3px;
+    margin-left: 1vw;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+button:hover{
+    background-color: var(--color--dark--blue);
+    color: var(--color--dark--orange);
+}
+
+/* === Media Queries === */
+@media (min-width: 769px) and (max-width: 1024px) {
+    form{
+        width: 90%;
+        padding-right: 3vw; 
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    iframe{
+        height: 35vh;
+    }
+
+    form{
+        width: 90%;
+        padding: 4vh 7vw 3vh 5vw;
+    }
+
+    button{
+        margin-left: 3vw;
+        width: 100%;
+    }
+}

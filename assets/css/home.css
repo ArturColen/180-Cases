@@ -1,0 +1,119 @@
+/* === Banner === */
+#banner{
+    display: flex;
+}
+
+#banner img{
+    width: 100%;
+}
+
+/* === Categories Section === */
+#title-categories{
+    margin: 10vh 0;
+    display: grid;
+    justify-content: center;
+    font-size: 1em;
+}
+
+#categories-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.items-section{
+    display: grid;
+}
+
+.circle{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: var(--color--orange);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    transition: all 0.3s;
+}
+
+.circle:hover{
+    cursor: pointer;
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.text-products{
+    margin-top: 2vh;
+    display: grid;
+    justify-content: center;
+    font-size: 1em;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.text-products:hover{
+    font-weight: bold;
+}
+
+/* === Best Options Section === */
+#title-bests-options{
+    font-size: 1em;
+    margin: 15vh 0 10vh;
+    display: grid;
+    justify-content: center;
+}
+
+#bests-options-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.images-bests-options{
+    justify-self: center;
+}
+
+/* === Media Queries === */
+@media (min-width: 769px) and (max-width: 1024px) {
+    #categories-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .items-section{
+        margin-bottom: 10vh;
+    }
+
+    #best-option-1{
+        grid-area: best-option-1;
+    }
+
+    #best-option-2{
+        grid-area: best-option-2;
+    }
+
+    #best-option-3{
+        grid-area: best-option-3;
+    }
+
+    #bests-options-container{
+        grid-template:
+        "best-option-1 best-option-2" 
+        "best-option-3 best-option-3";
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    #categories-container{
+        grid-template-columns: 1fr;
+    }
+
+    .items-section{
+        margin-bottom: 10vh;
+    }
+
+    #bests-options-container{
+        grid-template-columns: 1fr;
+    }
+}

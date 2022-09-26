@@ -1,0 +1,66 @@
+/* === Products Section === */
+#title-product{
+    width: 100%;
+    margin: 10vh 0;
+    display: grid;
+    justify-content: center;
+    font-size: 1em;
+}
+
+#products-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.product-items{
+    margin: 0 auto 10vh;
+}
+
+.subtitle-product{
+    text-align: center;
+}
+
+.description-product{
+    font-size: 0.9em;
+}
+
+.value-product{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.value-product a{
+    color: var(--color--dark--orange);
+}
+
+.value-product a:hover{
+    text-decoration: underline;
+}
+
+/* === Media Queries === */
+@media (min-width: 769px) and (max-width: 1024px) {
+    #product-1{
+        grid-area: product-1;
+    }
+
+    #product-2{
+        grid-area: product-2;
+    }
+
+    #product-3{
+        grid-area: product-3;
+    }
+
+    #products-container{
+        grid-template: 
+        "product-1 product-2"
+        "product-3 product-3";
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    #products-container{
+        grid-template-columns: 1fr;
+    }
+}

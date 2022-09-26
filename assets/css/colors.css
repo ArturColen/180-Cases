@@ -1,0 +1,9 @@
+/* === Color Variables === */
+:root{
+    --color--dark--orange: #FE6B00;
+    --color--orange: #FF974D;
+    --color--dark--blue: #00808C;
+    --color--blue: #2BCAD9;
+    --color--white: #FFFFFF;
+    --color--black: #000000;
+}
