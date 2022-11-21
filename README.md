@@ -1,7 +1,5 @@
 # Creation of the e-commerce website
 
-> 🚧 Project under development
-
 The project developed is a coursework of [Colégio Cotemig](https://www.cotemig.com.br/) whose main objective is to put into practice the knowledge of FlexBox and Grid obtained in the Front-end discipline. For this, I created a fictitious cell phone accessories company called 180 Cases, as part of the project the creation of the brand's visual identity.
 
 ![Image of the 180 Cases website's main page](https://user-images.githubusercontent.com/96635074/192193377-d7acaac5-0219-453f-9155-2653daee4433.png)
