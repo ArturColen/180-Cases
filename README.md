@@ -12,4 +12,4 @@ The main function of this site, in addition to training knowledge related to Fro
 * `CSS:` Page styling and responsiveness
 
 # 📁 Project access
-You can [access the source code](https://github.com/ArturColen/180-Cases) or [view the hosted page](https://arturcolen.github.io/180-Cases).
+You can [access the source code](https://github.com/ArturColen/180-Cases) or [view the hosted page](https://180cases.surge.sh).
