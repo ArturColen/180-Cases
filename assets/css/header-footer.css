@@ -19,7 +19,7 @@ a:visited{
     color: var(--color--black);
 }
 
-/* === Scroll === */
+/* === Scroll Bar === */
 ::-webkit-scrollbar{
     width: 0.5vw;
 }
