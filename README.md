@@ -7,7 +7,7 @@ The project was developed in the course of [Colégio Cotemig](https://www.cotemi
 ## 🔨 Project functionality
 The main function of this site is to simulate a real e-commerce site, making it possible to get to know the store's products and also to find the means of communication with the company.
 
-## 💻 Technologies and techniques used 
+## 💻 Technologies used 
 * `HTML:` Page structuring, accessibility, semantics and SEO
 * `CSS:` Page styling and responsiveness
 
