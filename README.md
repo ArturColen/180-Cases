@@ -12,4 +12,4 @@ The main function of this site is to simulate a real e-commerce site, making it 
 * `CSS:` Page styling and responsiveness
 
 # 📁 Project access
-You can [download the project](https://github.com/ArturColen/180-Cases/archive/refs/heads/main.zip) or [view the hosted page](https://arturcolen.github.io/180-Cases/).
+You can view the hosted page by clicking [here](https://arturcolen.github.io/180-Cases/).
